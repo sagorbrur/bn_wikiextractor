@@ -27,6 +27,9 @@ In order to speed up processing:
 The script may be invoked directly, however it can be installed by doing:
 
     (sudo) python setup.py install
+    
+# Extract bn_wiki_data
+```python WikiExtractor.py bnwiki-latest-pages-articles.xml.bz2```
 
 ## Usage
 The script is invoked with a Wikipedia dump file as an argument.
