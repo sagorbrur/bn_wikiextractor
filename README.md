@@ -31,6 +31,9 @@ The script may be invoked directly, however it can be installed by doing:
 # Extract bn_wiki_data
 ```python WikiExtractor.py bnwiki-latest-pages-articles.xml.bz2```
 
+# Merge and Clean bn_wiki_data
+run [this](https://github.com/sagorbrur/bn_wikiextractor/blob/master/postprocess/merge_and_clean.py) script to merge and clean the extract data.
+
 ## Usage
 The script is invoked with a Wikipedia dump file as an argument.
 The output is stored in several files of similar size in a given directory.
