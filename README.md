@@ -26,13 +26,19 @@ In order to speed up processing:
 
 The script may be invoked directly, however it can be installed by doing:
 
+Keep in mind that the python version should be 3.7 to 3.9
+
     (sudo) python setup.py install
     
 # Extract bn_wiki_data
 ```python WikiExtractor.py bnwiki-latest-pages-articles.xml.bz2```
 
-# Merge and Clean bn_wiki_data
-run [this](https://github.com/sagorbrur/bn_wikiextractor/blob/master/postprocess/merge_and_clean.py) script to merge and clean the extract data.
+# Dump to a JSONL a file
+To separate the documents and dump in a jsonl file, you can use the following script
+
+```
+python text_to_jsonl.py
+```
 
 ## Usage
 The script is invoked with a Wikipedia dump file as an argument.
